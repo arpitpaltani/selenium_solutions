@@ -2,7 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
-Path = "/Users/arpitpaltani/Desktop/Selenium/chromedriver"
+Path = "/Users/arpitpaltani/Desktop/Selenium/chromedriver" #Don't forget to update path for the driver while running the program
 driver = webdriver.Chrome(Path)
 driver.get("https://orteil.dashnet.org/cookieclicker/") #This command will open the browser and will load the website
 
