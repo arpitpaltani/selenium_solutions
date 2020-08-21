@@ -20,7 +20,7 @@ actions.click(cookie)
 
 for i in range(100):
     actions.perform() # Click the cookie
-    count = int(cookie_count.text.split(" ")[0])
+    count = int(cookie_count.text.split(" ")[0]) #Splitting the value with space and capturing 0th poistion in the value
     #print("count",count)
     for item in items:
         value = int(item.text)
