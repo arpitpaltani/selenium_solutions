@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
-path = "/Users/arpitpaltani/Desktop/Selenium/chromedriver"
+path = "/Users/arpitpaltani/Desktop/Selenium/chromedriver" # Don't forget to update the driver path while running the code
 driver = webdriver.Chrome(path)
 
 driver.get("http://www.webninjaz.com") #This command will open the browser and will load the website
