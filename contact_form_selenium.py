@@ -12,8 +12,8 @@ driver.implicitly_wait(10) #wait for 10 seconds
 
 contact_us = driver.find_element_by_id("menu-item-374") # Getting to the contact page
 actions = ActionChains(driver)
-actions.click(contact_us) #Defining the click function
-actions.perform() # Performing the click action on the website
+actions.click(contact_us) 
+actions.perform() # Performing the click action on the website for contact page
 
 #filling up the contact form
 driver.find_element_by_name("name1").send_keys("Arpit Paltani")
